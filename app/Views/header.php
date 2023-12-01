@@ -17,7 +17,7 @@
         </li>
         -->
         <li class="nav-item">
-          <a class="nav-link" href="<?=site_url("login") ?>">Katalog książek</a>
+          <a class="nav-link" href="<?=site_url("catalog") ?>">Katalog książek</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?=site_url("login") ?>">Wyszukiwarka</a>

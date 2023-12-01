@@ -8,6 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->setAutoRoute(true);
 
+$routes->get('catalog', 'Book::index');
+
 $routes->get('login', 'Login::index');
 $routes->get('logout', 'Login::logout');
 $routes->get('registration', 'Registration::index');
