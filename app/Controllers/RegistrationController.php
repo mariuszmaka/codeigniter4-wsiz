@@ -4,7 +4,7 @@ namespace App\Controllers;
 use \App\Models\UserModel;
 
 
-class Registration extends BaseController
+class RegistrationController extends BaseController
 {
     public function index()
     {

@@ -3,7 +3,7 @@
 namespace App\Controllers;
 use \App\Models\UserModel;
 
-class Login extends BaseController
+class LoginController extends BaseController
 {
     public function index()
     {
@@ -30,7 +30,6 @@ class Login extends BaseController
                 # 'Password is valid!';
 
             } else {
-
                 echo 'Błędna nazwa użytkownika lub hasło.';
             }
         }

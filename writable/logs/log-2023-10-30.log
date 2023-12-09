@@ -120,3 +120,161 @@ in APPPATH\Views\bookList.php on line 2.
  7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
  8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:20:44 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 4 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:21:06 --> Cannot use object of type stdClass as array
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 4 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:21:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 4 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:22:20 --> Cannot use object of type stdClass as array
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 4 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:22:28 --> syntax error, unexpected token "echo"
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 3 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:22:29 --> syntax error, unexpected token "echo"
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 3 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:22:36 --> syntax error, unexpected token "echo"
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 3 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 19:22:37 --> syntax error, unexpected token "echo"
+in APPPATH\Views\bookList.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 3 APPPATH\Controllers\Book.php(15): view('bookList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:09:35 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Book.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\framework-4.4.2\\app\\Controllers\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Book')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Book', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:09:58 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Book.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\framework-4.4.2\\app\\Controllers\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Book')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Book', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:09:59 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Book.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\framework-4.4.2\\app\\Controllers\\Book.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Book')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Book')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Book', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:11:47 --> Attempt to read property "title" on string
+in APPPATH\Views\book.php on line 4.
+ 1 APPPATH\Views\book.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on string', 'C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('book', [], true)
+ 5 APPPATH\Controllers\Book.php(29): view('book', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->getBook('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:11:56 --> Attempt to read property "title" on string
+in APPPATH\Views\book.php on line 4.
+ 1 APPPATH\Views\book.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on string', 'C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('book', [], true)
+ 5 APPPATH\Controllers\Book.php(29): view('book', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->getBook('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:11:59 --> Attempt to read property "title" on string
+in APPPATH\Views\book.php on line 4.
+ 1 APPPATH\Views\book.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on string', 'C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('book', [], true)
+ 5 APPPATH\Controllers\Book.php(29): view('book', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->getBook('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:12:05 --> Attempt to read property "title" on string
+in APPPATH\Views\book.php on line 4.
+ 1 APPPATH\Views\book.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on string', 'C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('book', [], true)
+ 5 APPPATH\Controllers\Book.php(29): view('book', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->getBook('7')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 20:13:04 --> Attempt to read property "id" on string
+in APPPATH\Views\book.php on line 18.
+ 1 APPPATH\Views\book.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\framework-4.4.2\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('book', [], true)
+ 5 APPPATH\Controllers\Book.php(29): view('book', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Book->getBook('7')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

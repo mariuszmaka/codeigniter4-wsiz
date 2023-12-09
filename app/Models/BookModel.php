@@ -1,31 +1,29 @@
 <?php
 
 namespace App\Models;
+
 use CodeIgniter\Model;
 
-class BookModel extends Model 
+class BookModel extends Model
 {
-    protected $table        =   'books';
-    protected $primaryKey   =   'id';
+    protected $table = 'books';
+    protected $returnType = 'object';
 
-    protected $useAutoIncrement = true;
-    protected $returnType   = 'object';
-    protected $useSoftDeletes = true;
 
-    //protected $allowedFields = ['name', 'email', 'password', 'created_at', 'updated_at'];
-    
-    protected $useTimestamps = false;
-    protected $createdField = 'created_at';
-    protected $updatedField = 'updated_at';
-    protected $deletedField = 'deleted_at';
+    public function getAllBooks()
+    {
 
-    protected $validationRules = [];
-    protected $validationMessages = [];
-    protected $skipValidation = false;
-
-    public function getBooks(){
-        return $this->findAll();
+        $this->builder()
+            ->select()
+            ->join('authors', 'books.author_id = authors.id');
+            
+        return [
+            'data' => $this->paginate(10),//findAll(),
+            'pager'=> $this->pager,
+        ];
     }
+
+
 }
 
 ?>

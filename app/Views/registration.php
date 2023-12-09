@@ -2,11 +2,11 @@
     <div class="card"> 
     <div class="card-body">
     <form method="post" action="<?= base_url("registration"); ?>"> 
-    <h1>REJESTRACJA</h1>
+    <h1>Rejestracja</h1>
 
     <div class="mb-3">
         <label for="name" class="form-label">Imię</label>
-        <input required id="name" name="name" type="name" class="form-control" id="name" placeholder="imię" />
+        <input required id="name" name="name" type="name" class="form-control" id="name" placeholder="Imię" />
     </div>
 
     <div class="mb-3">
@@ -19,7 +19,7 @@
         <input required  id="password" name="password" type="text" class="form-control" id="password" placeholder="Wpisz hasło" />        
     </div>
     <div class="mb-3">
-        <input type="submit" value="Registration" class="btn btn-primary" />
+        <input type="submit" value="Rejestracja" class="btn btn-primary" />
     </div>
     </form>
     </div>

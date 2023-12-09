@@ -5,14 +5,18 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'BookController::index');
 $routes->setAutoRoute(true);
 
-$routes->get('catalog', 'Book::index');
+$routes->get('catalog', 'BookController::index');
+$routes->get('book/(:num)', 'BookController::getBook/$1');
 
-$routes->get('login', 'Login::index');
-$routes->get('logout', 'Login::logout');
-$routes->get('registration', 'Registration::index');
+$routes->get('login', 'LoginController::index');
+$routes->post('login','LoginController::do_login');
+$routes->get('logout', 'LoginController::logout');
 
-$routes->post('login','Login::do_login');
-$routes->post('registration','Registration::do_register');
+
+$routes->get('registration', 'RegistrationController::index');
+$routes->post('registration','RegistrationController::do_register');
+
+$routes->get('search', 'SearchController::index');
