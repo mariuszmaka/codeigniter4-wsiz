@@ -31,10 +31,15 @@
         <li>
           <!-- short if if ? yes : no -->
             <?php echo (isset(session('user')->name) ? 
-            '<a class="nav-link" href="' .base_url('/logout') .'">'. session('user')->name . ' (wyloguj)</a>'
+            '<a class="nav-link" href="' .base_url('user')  .'">Moje dane ('.session('user')->name. ' '.session('user')->surname.')</a>'
             : ''); ?>
-            
-            </li>
+        </li>
+        <li>
+          <!-- short if if ? yes : no -->
+            <?php echo (isset(session('user')->name) ? 
+            '<a class="nav-link" href="' .base_url('/logout') .'">Wyloguj</a>'
+            : ''); ?>
+        </li>
       </ul>
     </div>
   </div>

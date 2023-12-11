@@ -3,8 +3,6 @@
     <h1>Lista książek</h1>
 
 
-    <?php //var_dump($data); die();?>
-
     <?php if ($data): ?>
       <?php foreach ($data as $row): ?>
         <?php //print_r($row); die(); ?>
@@ -19,8 +17,8 @@
                   <?php echo $row->title; ?>
                 </h5>
                 <p class="card-text">Autor:
-                  <?php echo $row->name; ?>&nbsp;
-                  <?php echo $row->surname; ?>
+                  <?php echo $row->authors; ?>&nbsp;
+                  <?php //echo $row->surname; ?>
                 </p>
                 <p class="card-text" style=" overflow: hidden;">
                   <?php echo $row->description; ?>
@@ -38,7 +36,7 @@
                   </small>
                 </p>
                 <p class="card-text">
-                  <a href="<?php echo base_url() . '/book/' . $row->id; ?>" class="btn btn-primary">Więcej</a>
+                  <a href="<?php echo base_url() . '/book/' . $row->book_id; ?>" class="btn btn-primary">Więcej</a>
                 </p>
 
               </div>
@@ -51,7 +49,7 @@
 
     <!-- Pagination -->
     <div class="d-flex justify-content-end">
-      <?php $pager->links() ?>
+      <?= $pager_links;  ?>
     </div>
 
   </div>

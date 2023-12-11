@@ -5,29 +5,28 @@ use \App\Models\BookModel;
 
 class BookController extends BaseController
 {
-    public function index()//$perPage = 10)
+    public function index($perPage = 10)
     {
   
-       /* $pager = service('pager');
+        $pager = service('pager');
         $page = (@$_GET['page']) ? $_GET['page'] : 1;
         $offset = ($page-1) * $perPage;
 
         $db = db_connect();
         $builder = $db->table('books');
-        $builder->select('
-                        books.id as id,
-                        books.img as img,
-                        books.title as title,
-                        books.isbn as isbn,
-                        books.description as description,
-                        books.pages as pages,
-                        books.publish_date as publish_date,
-                        authors.name as name,
-                        authors.surname as surname,
-                        books.amount as amount
-                        ');
-        $builder->join('authors', 'books.author_id = authors.id');
-   
+        $builder->select('books.book_id,
+                 books.title, 
+                 books.description, 
+                 books.isbn, 
+                 books.img, 
+                 books.pages, 
+                 books.publish_date,
+                 books.amount, 
+                 GROUP_CONCAT(authors.name,\' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors');
+        $builder->join('book_author', 'books.book_id = book_author.book_id', 'LEFT');
+        $builder->join('authors', 'authors.author_id = book_author.author_id', 'LEFT');
+        $builder->groupBy(array('books.book_id', "books.title"));
+
         $query = $builder->get($perPage,$offset);
         $total = $builder->countAllResults();     
 
@@ -35,27 +34,9 @@ class BookController extends BaseController
         $pager_links = $pager->makeLinks($page, $perPage, $total);
 
         $data = [
-            // ...
             'pager_links' => $pager->makeLinks($page,$perPage,$total),
             'data' => $query->getResult(),
         ];
-        */
-  /*      $model = new BookModel();
-        $data = [
-                'data' => $model
-                        ->join('authors', 'books.author_id = authors.id', 'LEFT')
-                        ->findAll(),
-                'pager' => $model->pager,
-        ];
-*/      
-
-
-        $model = new BookModel();
-        $data = [ 
-            'data'  => $model->getAllBooks(),
-            'pager' => $model->pager,
-        ];
-        $data = $model->getAllBooks();
 
         return view('header')
             . view('bookList', $data)
@@ -65,13 +46,28 @@ class BookController extends BaseController
     public function getBook($param = null){
 
         //Show one book 
-        
-        $model = new BookModel();
-        $data['data'] = $model
-                    ->join('authors', 'books.author_id = authors.id', 'LEFT')
-                    ->where('books.id', $param)
-                    ->first();
+        $db = db_connect();
+        $builder = $db->table('books');
+        $builder->select('books.book_id,
+                 books.title, 
+                 books.description, 
+                 books.isbn, 
+                 books.img, 
+                 books.pages,
+                 books.type, 
+                 books.publish_date,
+                 books.amount, 
+                 GROUP_CONCAT(authors.name,\' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors');
+        $builder->join('book_author', 'books.book_id = book_author.book_id', 'LEFT');
+        $builder->join('authors', 'authors.author_id = book_author.author_id', 'LEFT');
+        $builder->groupBy(array('books.book_id', "books.title"));
+        $builder->where('books.book_id', $param);
 
+        $query = $builder->get();
+
+        $data = [
+            'data' => $query->getFirstRow(),
+        ];
         return view('header')
             . view('book', $data)
             . view('footer');
@@ -103,8 +99,4 @@ class BookController extends BaseController
     }
 */
 
-
-
 }
-
-

@@ -19,8 +19,7 @@
             <?php echo $data->title; ?>
           </h5>
           <p class="card-text">Autor:
-            <?php echo $data->name; ?>&nbsp;
-            <?php echo $data->surname; ?>
+            <?php echo $data->authors; ?>
           </p>
           <p class="card-text">
             <?php echo $data->description; ?>
