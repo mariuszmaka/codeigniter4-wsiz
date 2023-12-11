@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Controllers;
-use \App\Models\BookModel;
+use App\ThirdParty\FPDF;
+
 
 class BookController extends BaseController
 {
@@ -72,31 +73,17 @@ class BookController extends BaseController
             . view('book', $data)
             . view('footer');
     }
-/*
-    public function doWaterMark()
+
+    public function getBookPDF($id = null)
     {
-        $currentFile = $this->file;
-        //$currentFile = put here your file;
-        $Username = "UserName";
-        $this->pdf = new FPDI();
+        $dompdf = new \Dompdf\Dompdf();
+        $dompdf->loadHtml(view('pdfView'));
+        $dompdf->setPaper('A4', 'landscape');
+        $dompdf->render();
+        $dompdf->stream();
 
-        $pagecount = $this->pdf->setSourceFile($currentFile);
-
-        for ($i = 1; $i <= $pagecount; $i++) {
-            $this->pdf->addPage(); //<- moved from outside loop
-            $tplidx = $this->pdf->importPage($i);
-            $this->pdf->useTemplate($tplidx, 10, 10, 100);
-            // now write some text above the imported page
-            $this->pdf->SetFont('Arial', 'I', 40);
-            $this->pdf->SetTextColor(255, 0, 0);
-            $this->pdf->SetXY(25, 135);
-            $this->_rotate(55);
-            $this->pdf->Write(0, $Username);
-            $this->_rotate(0); //<-added
-        }
-
-        $this->pdf->Output('New File Name', 'F');
+        return view('pdfView');
     }
-*/
+
 
 }

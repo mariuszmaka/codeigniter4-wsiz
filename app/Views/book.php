@@ -45,7 +45,7 @@
             <?php
             if (session()->has('user')) {
               if ($data->type == '0') {
-                echo '<button type="button" class="btn btn-success">Pobierz książkę w formacie PDF z naniesionymi informacjami personalnymi</button>';
+                echo '<a href="'. base_url('bookPDF/') . $data->book_id .'" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-success">Pobierz książkę w formacie PDF z naniesionymi informacjami personalnymi</a>';
               } else {
                 ?>
 

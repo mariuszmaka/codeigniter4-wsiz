@@ -14,6 +14,7 @@ $routes->setAutoRoute(true);
 
 $routes->get('catalog',     'BookController::index');
 $routes->get('book/(:num)', 'BookController::getBook/$1');
+$routes->get('bookPDF/(:num)', 'BookController::getBookPDF/$1');
 
 $routes->get ('login',  'LoginController::index');
 $routes->post('login',  'LoginController::do_login');
