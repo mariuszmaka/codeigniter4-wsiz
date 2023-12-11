@@ -75,8 +75,7 @@
               echo '<button type="button" class="btn btn-primary">Aby wypożyczyć musisz być zalogowany</button>';
             }
             ?>
-
-          </p>
+    </p>
     </div>
   </div>
 <?php endif; ?>
