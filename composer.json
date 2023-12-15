@@ -16,7 +16,9 @@
         "ext-mbstring": "*",
         "dompdf/dompdf": "^2.0",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "phpjuice/opencf": "^2.2",
+        "psr/log": "^1.1",
+        "tigo/recommendation": "^0.0.2"
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.5",

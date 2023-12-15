@@ -36,7 +36,7 @@
                   </small>
                 </p>
                 <p class="card-text">
-                  <a href="<?php echo base_url() . '/book/' . $row->book_id; ?>" class="btn btn-primary">Więcej</a>
+                  <a href="<?php echo base_url() . 'book/' . $row->book_id; ?>" class="btn btn-primary">Więcej</a>
                 </p>
 
               </div>

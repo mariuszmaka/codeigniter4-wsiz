@@ -1,0 +1,1737 @@
+CRITICAL - 2023-12-14 10:28:25 --> Class "setasign\Fpdi\Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:28:34 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:28:35 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:30:46 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:31:20 --> Class "setasign\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:32:23 --> Class "App\ThirdParty\BaseController" not found
+in APPPATH\Controllers\BookController.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\Controllers\\BookController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BookController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BookController')
+ 5 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\BookController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:33:29 --> Class "fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:33:41 --> Class "Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:33:42 --> Class "Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:36:43 --> Class "Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:40:34 --> Class "Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:42:22 --> Class "Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:43:27 --> Class "setasign\Fpdi\Tcpdf\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:43:50 --> Class "setasign\Fpdi\Tcpdf\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:43:51 --> Class "setasign\Fpdi\Tcpdf\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:43:51 --> Class "setasign\Fpdi\Tcpdf\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:43:52 --> Class "setasign\Fpdi\Tcpdf\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:46:29 --> Class "App\Controllers\setasign\Fpdi\Tcpdf\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:46:30 --> Class "App\Controllers\setasign\Fpdi\Tcpdf\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:36:50 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:37:23 --> Class "setasign\Fpdi\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:37:52 --> Class "FpdfTpl" not found
+in APPPATH\ThirdParty\fpdi\src\Fpdi.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\ThirdParty/fpdi/src\\Fpdi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdi\\Fpdi')
+ 4 APPPATH\Controllers\BookController.php(81): CodeIgniter\Autoloader\Autoloader->loadClass('Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 16:55:28 --> Class "FpdfTpl" not found
+in APPPATH\ThirdParty\fpdi\src\Fpdi.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\ThirdParty/fpdi/src\\Fpdi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdi\\Fpdi')
+ 4 APPPATH\Controllers\BookController.php(81): CodeIgniter\Autoloader\Autoloader->loadClass('Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 16:56:18 --> Class "FpdfTpl" not found
+in APPPATH\ThirdParty\fpdi\src\Fpdi.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\ThirdParty/fpdi/src\\Fpdi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdi\\Fpdi')
+ 4 APPPATH\Controllers\BookController.php(81): CodeIgniter\Autoloader\Autoloader->loadClass('Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 16:56:37 --> Class "FpdfTpl" not found
+in APPPATH\ThirdParty\fpdi\src\Fpdi.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\ThirdParty/fpdi/src\\Fpdi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdi\\Fpdi')
+ 4 APPPATH\Controllers\BookController.php(82): CodeIgniter\Autoloader\Autoloader->loadClass('Fpdi\\Fpdi')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:23:32 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:23:32 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:26:50 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:26:50 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:26:51 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:26:51 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:28:39 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:28:39 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:29:29 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:29:29 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:29:31 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:29:31 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:30:01 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:30:01 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:30:46 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:30:46 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:30:48 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:30:48 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:31:59 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:31:59 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 4 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:32:13 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:32:13 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:32:25 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:32:25 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:32:26 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:32:26 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:32:27 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:32:27 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:32:44 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:32:44 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 4 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 17:32:59 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:32:59 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 4 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:35:34 --> You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(83): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Common.php(363): CodeIgniter\Database\Config::connect('default', true)
+ 3 APPPATH\Controllers\BookController.php(52): db_connect()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:35:37 --> You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(83): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Common.php(363): CodeIgniter\Database\Config::connect('default', true)
+ 3 APPPATH\Controllers\BookController.php(52): db_connect()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:35:55 --> You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(83): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Common.php(363): CodeIgniter\Database\Config::connect('default', true)
+ 3 APPPATH\Controllers\BookController.php(18): db_connect()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:38:02 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:38:02 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:38:19 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:38:19 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:38:27 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:38:27 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:38:29 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:38:29 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:39:55 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:39:55 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:42:38 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:42:38 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:44:03 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:44:03 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:44:20 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:44:20 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:45:00 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:45:00 --> Unable to connect to the database.
+Main connection [sqlite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:46:43 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:46:43 --> Unable to connect to the database.
+Main connection [SQLite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:47:27 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:47:27 --> Unable to connect to the database.
+Main connection [SQLite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:48:56 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-14 17:48:56 --> Unable to connect to the database.
+Main connection [SQLite3]: SQLite3 error: Unable to open database: unable to open database file
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 4 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:49:11 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:49:11 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 2 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:50:37 --> Attempt to read property "id" on null
+in APPPATH\Views\user.php on line 8.
+ 1 APPPATH\Views\user.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\user.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\UserController.php(19): view('user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:50:50 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:50:50 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 2 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:52:16 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:52:16 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 2 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:52:43 --> Undefined property: stdClass::$authors
+in APPPATH\Views\bookList.php on line 20.
+ 1 APPPATH\Views\bookList.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$authors', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\bookList.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\bookList.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bookList', [], true)
+ 5 APPPATH\Controllers\BookController.php(45): view('bookList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:53:43 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:53:43 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 2 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:54:10 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;SEPARATOR&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:54:10 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;SEPARATOR&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname  SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 2 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:54:21 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, wrong number of arguments to function GROUP_CONCAT() in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:54:21 --> SQLite3::query(): Unable to prepare statement: 1, wrong number of arguments to function GROUP_CONCAT()
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ) as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 2 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:54:48 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, wrong number of arguments to function GROUP_CONCAT() in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->index()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:54:48 --> SQLite3::query(): Unable to prepare statement: 1, wrong number of arguments to function GROUP_CONCAT()
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ) as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+GROUP BY `books`.`book_id`, `books`.`title`
+ LIMIT 10', [], false)
+ 2 APPPATH\Controllers\BookController.php(33): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:55:32 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:55:32 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:56:03 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(70): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:56:03 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(70): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 17:56:11 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error in D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\projects\\bib...', 146)
+#1 D:\projects\biblioteka_cyfr\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#4 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#5 D:\projects\biblioteka_cyfr\app\Controllers\BookController.php(70): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 17:56:11 --> SQLite3::query(): Unable to prepare statement: 1, near &quot;ORDER&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`type`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `books`.`book_id` = :books.book_id:
+GROUP BY `books`.`book_id`, `books`.`title`', [...], false)
+ 2 APPPATH\Controllers\BookController.php(70): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:57:01 --> Attempt to read property "id" on null
+in APPPATH\Controllers\LoginController.php on line 24.
+ 1 APPPATH\Controllers\LoginController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\LoginController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->do_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 17:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 20:42:43 --> Call to undefined function link_tag()
+in APPPATH\Views\header.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('header', [], true)
+ 4 APPPATH\Controllers\BookController.php(72): view('header')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 20:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 20:43:46 --> syntax error, unexpected token "echo"
+in APPPATH\Views\header.php on line 10.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\BookController.php(72): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 20:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 20:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 21:24:31 --> syntax error, unexpected token "{", expecting ")"
+in APPPATH\Views\book.php on line 101.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('book', [], true)
+ 3 APPPATH\Controllers\BookController.php(73): view('book', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBook('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 21:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 21:49:42 --> foreach() argument must be of type array|object, string given
+in VENDORPATH\tigo\recommendation\src\Collaborative\Base.php on line 36.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\Base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\Base.php', 36)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(41): Tigo\Recommendation\Collaborative\Base->ratedProduct('ratings', '1')
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(69): Tigo\Recommendation\Collaborative\RankingCollaborative->similarUser('ratings', '1')
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(28): Tigo\Recommendation\Collaborative\RankingCollaborative->addRating('ratings', '1', 0)
+ 5 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\RankingCollaborative->recommend('ratings', '1', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), 'ratings', '1', 0)
+ 7 VENDORPATH\tigo\recommendation\src\Recommend.php(35): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), 'ratings', '1', 0)
+ 8 APPPATH\Controllers\RecommendationController.php(13): Tigo\Recommendation\Recommend->ranking('ratings', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 21:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 21:51:18 --> foreach() argument must be of type array|object, string given
+in VENDORPATH\tigo\recommendation\src\Collaborative\Base.php on line 36.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\Base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\Base.php', 36)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(41): Tigo\Recommendation\Collaborative\Base->ratedProduct('ratings', '1')
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(69): Tigo\Recommendation\Collaborative\RankingCollaborative->similarUser('ratings', '1')
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(28): Tigo\Recommendation\Collaborative\RankingCollaborative->addRating('ratings', '1', 0)
+ 5 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\RankingCollaborative->recommend('ratings', '1', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), 'ratings', '1', 0)
+ 7 VENDORPATH\tigo\recommendation\src\Recommend.php(35): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), 'ratings', '1', 0)
+ 8 APPPATH\Controllers\RecommendationController.php(13): Tigo\Recommendation\Recommend->ranking('ratings', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 21:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 21:51:56 --> foreach() argument must be of type array|object, string given
+in VENDORPATH\tigo\recommendation\src\Collaborative\Base.php on line 36.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\Base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\Base.php', 36)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(41): Tigo\Recommendation\Collaborative\Base->ratedProduct('ratings', '1')
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(69): Tigo\Recommendation\Collaborative\RankingCollaborative->similarUser('ratings', '1')
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(28): Tigo\Recommendation\Collaborative\RankingCollaborative->addRating('ratings', '1', 0)
+ 5 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\RankingCollaborative->recommend('ratings', '1', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), 'ratings', '1', 0)
+ 7 VENDORPATH\tigo\recommendation\src\Recommend.php(35): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), 'ratings', '1', 0)
+ 8 APPPATH\Controllers\RecommendationController.php(13): Tigo\Recommendation\Recommend->ranking('ratings', '1')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 21:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 21:58:07 --> Cannot use object of type stdClass as array
+in VENDORPATH\tigo\recommendation\src\Collaborative\Base.php on line 37.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(41): Tigo\Recommendation\Collaborative\Base->ratedProduct([...], '1')
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(69): Tigo\Recommendation\Collaborative\RankingCollaborative->similarUser([...], '1')
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(28): Tigo\Recommendation\Collaborative\RankingCollaborative->addRating([...], '1', 0)
+ 4 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\RankingCollaborative->recommend([...], '1', 0)
+ 5 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), [...], '1', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Recommend.php(35): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), [...], '1', 0)
+ 7 APPPATH\Controllers\RecommendationController.php(17): Tigo\Recommendation\Recommend->ranking([...], '1')
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 21:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 21:58:59 --> Undefined variable $data
+in APPPATH\Views\recommendation.php on line 3.
+ 1 APPPATH\Views\recommendation.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\recommendation.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\recommendation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('recommendation', [], true)
+ 5 APPPATH\Controllers\RecommendationController.php(19): view('recommendation', [])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 21:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 21:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 22:01:59 --> Undefined array key "product_id"
+in VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php on line 59.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\SlopeOneCollaborative.php', 59)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(72): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->update([...], '1')
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(103): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->calculateItems([...], '1')
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(132): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->averageDifference([...], '1')
+ 5 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(42): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->prediction([...], '1', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->recommend([...], '1', 0)
+ 7 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\SlopeOneCollaborative), [...], '1', 0)
+ 8 VENDORPATH\tigo\recommendation\src\Recommend.php(61): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\SlopeOneCollaborative), [...], '1', 0)
+ 9 APPPATH\Controllers\RecommendationController.php(17): Tigo\Recommendation\Recommend->slopeOne([...], '1')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 22:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 22:06:58 --> Undefined array key "product_id"
+in VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php on line 46.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\EuclideanCollaborative.php', 46)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(67): Tigo\Recommendation\Collaborative\EuclideanCollaborative->userRated([...], '7', 0)
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(93): Tigo\Recommendation\Collaborative\EuclideanCollaborative->operation([...], '7', 0)
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(119): Tigo\Recommendation\Collaborative\EuclideanCollaborative->metricDistance([...], '7', 0)
+ 5 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(28): Tigo\Recommendation\Collaborative\EuclideanCollaborative->average([...], '7', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\EuclideanCollaborative->recommend([...], '7', 0)
+ 7 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\EuclideanCollaborative), [...], '7', 0)
+ 8 VENDORPATH\tigo\recommendation\src\Recommend.php(48): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\EuclideanCollaborative), [...], '7', 0)
+ 9 APPPATH\Controllers\RecommendationController.php(17): Tigo\Recommendation\Recommend->euclidean([...], '7')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 22:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 22:12:40 --> Undefined array key "product_id"
+in VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php on line 46.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\RankingCollaborative.php', 46)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(69): Tigo\Recommendation\Collaborative\RankingCollaborative->similarUser([...], '5')
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\RankingCollaborative.php(28): Tigo\Recommendation\Collaborative\RankingCollaborative->addRating([...], '5', 0)
+ 4 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\RankingCollaborative->recommend([...], '5', 0)
+ 5 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), [...], '5', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Recommend.php(35): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\RankingCollaborative), [...], '5', 0)
+ 7 APPPATH\Controllers\RecommendationController.php(17): Tigo\Recommendation\Recommend->ranking([...], '5')
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 22:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 22:29:20 --> Undefined array key "product_id"
+in VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php on line 46.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\EuclideanCollaborative.php', 46)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(67): Tigo\Recommendation\Collaborative\EuclideanCollaborative->userRated([...], '2', 1)
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(93): Tigo\Recommendation\Collaborative\EuclideanCollaborative->operation([...], '2', 1)
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(119): Tigo\Recommendation\Collaborative\EuclideanCollaborative->metricDistance([...], '2', 1)
+ 5 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(28): Tigo\Recommendation\Collaborative\EuclideanCollaborative->average([...], '2', 1)
+ 6 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\EuclideanCollaborative->recommend([...], '2', 1)
+ 7 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\EuclideanCollaborative), [...], '2', 1)
+ 8 VENDORPATH\tigo\recommendation\src\Recommend.php(48): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\EuclideanCollaborative), [...], '2', 1)
+ 9 APPPATH\Controllers\RecommendationController.php(17): Tigo\Recommendation\Recommend->euclidean([...], '2', 1)
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 22:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 22:29:34 --> Undefined array key "product_id"
+in VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php on line 46.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\EuclideanCollaborative.php', 46)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(67): Tigo\Recommendation\Collaborative\EuclideanCollaborative->userRated([...], '2', 0)
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(93): Tigo\Recommendation\Collaborative\EuclideanCollaborative->operation([...], '2', 0)
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(119): Tigo\Recommendation\Collaborative\EuclideanCollaborative->metricDistance([...], '2', 0)
+ 5 VENDORPATH\tigo\recommendation\src\Collaborative\EuclideanCollaborative.php(28): Tigo\Recommendation\Collaborative\EuclideanCollaborative->average([...], '2', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\EuclideanCollaborative->recommend([...], '2', 0)
+ 7 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\EuclideanCollaborative), [...], '2', 0)
+ 8 VENDORPATH\tigo\recommendation\src\Recommend.php(48): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\EuclideanCollaborative), [...], '2', 0)
+ 9 APPPATH\Controllers\RecommendationController.php(17): Tigo\Recommendation\Recommend->euclidean([...], '2')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 22:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 22:49:46 --> Undefined array key "product_id"
+in VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php on line 59.
+ 1 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\projects\\biblioteka_cyfr\\vendor\\tigo\\recommendation\\src\\Collaborative\\SlopeOneCollaborative.php', 59)
+ 2 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(72): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->update([...], '1')
+ 3 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(103): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->calculateItems([...], '1')
+ 4 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(132): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->averageDifference([...], '1')
+ 5 VENDORPATH\tigo\recommendation\src\Collaborative\SlopeOneCollaborative.php(42): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->prediction([...], '1', 0)
+ 6 VENDORPATH\tigo\recommendation\src\Factories\CollaborativeFactory.php(19): Tigo\Recommendation\Collaborative\SlopeOneCollaborative->recommend([...], '1', 0)
+ 7 VENDORPATH\tigo\recommendation\src\Creator\CollaborativeCreator.php(29): Tigo\Recommendation\Factories\CollaborativeFactory->factoryMethod(Object(Tigo\Recommendation\Collaborative\SlopeOneCollaborative), [...], '1', 0)
+ 8 VENDORPATH\tigo\recommendation\src\Recommend.php(61): Tigo\Recommendation\Creator\CollaborativeCreator->doFactory(Object(Tigo\Recommendation\Collaborative\SlopeOneCollaborative), [...], '1', 0)
+ 9 APPPATH\Controllers\RecommendationController.php(16): Tigo\Recommendation\Recommend->slopeOne([...], '1')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 22:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 22:53:00 --> Undefined variable $data
+in APPPATH\Views\recommendation.php on line 3.
+ 1 APPPATH\Views\recommendation.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\recommendation.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\recommendation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('recommendation', [], true)
+ 5 APPPATH\Controllers\RecommendationController.php(19): view('recommendation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 22:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 22:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 23:00:29 --> mysqli_sql_exception: Unknown column 'scoree' in 'field list' in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `book_id...', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book_id...')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book_id...')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `book_id...', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-14 23:00:29 --> Unknown column 'scoree' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `book_id`, `scoree`, `user_id`
+FROM `ratings`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 23:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 23:15:17 --> Unsupported operand types: array - array
+in VENDORPATH\phpjuice\opencf\src\Support\Vector.php on line 83.
+ 1 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\Similarity.php(43): OpenCF\Support\Vector->diff([...], [...])
+ 2 VENDORPATH\phpjuice\opencf\src\Algorithms\Recommender.php(75): OpenCF\Algorithms\Slopeone\Similarity->getSimilarity([...], [...])
+ 3 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\WeightedSlopeone.php(19): OpenCF\Algorithms\Recommender->buildModel()
+ 4 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(119): OpenCF\Algorithms\Slopeone\WeightedSlopeone->buildModel()
+ 5 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(80): OpenCF\RecommenderService->getRecommender('OpenCF\\Algorithms\\Slopeone\\WeightedSlopeone')
+ 6 APPPATH\Controllers\RecommendationController.php(56): OpenCF\RecommenderService->weightedSlopeone()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 23:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 23:16:07 --> Unsupported operand types: array - array
+in VENDORPATH\phpjuice\opencf\src\Support\Vector.php on line 83.
+ 1 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\Similarity.php(43): OpenCF\Support\Vector->diff([...], [...])
+ 2 VENDORPATH\phpjuice\opencf\src\Algorithms\Recommender.php(75): OpenCF\Algorithms\Slopeone\Similarity->getSimilarity([...], [...])
+ 3 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\WeightedSlopeone.php(19): OpenCF\Algorithms\Recommender->buildModel()
+ 4 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(119): OpenCF\Algorithms\Slopeone\WeightedSlopeone->buildModel()
+ 5 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(80): OpenCF\RecommenderService->getRecommender('OpenCF\\Algorithms\\Slopeone\\WeightedSlopeone')
+ 6 APPPATH\Controllers\RecommendationController.php(56): OpenCF\RecommenderService->weightedSlopeone()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 23:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 23:16:08 --> Unsupported operand types: array - array
+in VENDORPATH\phpjuice\opencf\src\Support\Vector.php on line 83.
+ 1 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\Similarity.php(43): OpenCF\Support\Vector->diff([...], [...])
+ 2 VENDORPATH\phpjuice\opencf\src\Algorithms\Recommender.php(75): OpenCF\Algorithms\Slopeone\Similarity->getSimilarity([...], [...])
+ 3 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\WeightedSlopeone.php(19): OpenCF\Algorithms\Recommender->buildModel()
+ 4 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(119): OpenCF\Algorithms\Slopeone\WeightedSlopeone->buildModel()
+ 5 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(80): OpenCF\RecommenderService->getRecommender('OpenCF\\Algorithms\\Slopeone\\WeightedSlopeone')
+ 6 APPPATH\Controllers\RecommendationController.php(56): OpenCF\RecommenderService->weightedSlopeone()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 23:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 23:18:17 --> Unsupported operand types: array - array
+in VENDORPATH\phpjuice\opencf\src\Support\Vector.php on line 83.
+ 1 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\Similarity.php(43): OpenCF\Support\Vector->diff([...], [...])
+ 2 VENDORPATH\phpjuice\opencf\src\Algorithms\Recommender.php(75): OpenCF\Algorithms\Slopeone\Similarity->getSimilarity([...], [...])
+ 3 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\WeightedSlopeone.php(19): OpenCF\Algorithms\Recommender->buildModel()
+ 4 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(119): OpenCF\Algorithms\Slopeone\WeightedSlopeone->buildModel()
+ 5 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(80): OpenCF\RecommenderService->getRecommender('OpenCF\\Algorithms\\Slopeone\\WeightedSlopeone')
+ 6 APPPATH\Controllers\RecommendationController.php(56): OpenCF\RecommenderService->weightedSlopeone()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 23:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 23:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

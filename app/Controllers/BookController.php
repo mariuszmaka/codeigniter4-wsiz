@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Controllers;
-use App\ThirdParty\FPDF;
 
-
+use Tigo\Recommendation\Recommend;
+use setasign\Fpdi;
 class BookController extends BaseController
 {
     public function index($perPage = 10)
@@ -76,11 +76,10 @@ class BookController extends BaseController
 
     public function getBookPDF($id = null)
     {
+
         $dompdf = new \Dompdf\Dompdf();
-        $dompdf->loadHtml(view('pdfView'));
-        $dompdf->setPaper('A4', 'landscape');
-        $dompdf->render();
-        $dompdf->stream();
+        //$pdf = new \Fpdi\Fpdi();
+
 
         return view('pdfView');
     }

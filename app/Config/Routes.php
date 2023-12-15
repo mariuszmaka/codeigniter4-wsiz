@@ -10,7 +10,7 @@ use CodeIgniter\Router\RouteCollection;
     #            sciezka, kontroler/funkcja
 
 $routes->get('/', 'BookController::index');
-$routes->setAutoRoute(true);
+
 
 $routes->get('catalog',     'BookController::index');
 $routes->get('book/(:num)', 'BookController::getBook/$1');
@@ -29,3 +29,19 @@ $routes->get ('registration',   'RegistrationController::index');
 $routes->post('registration',   'RegistrationController::do_register');
 
 $routes->get('search', 'SearchController::index');
+
+$routes->get('recommendation', 'RecommendationController::index');
+
+$routes->post('order', 'OrderController::store');
+$routes->get('order', 'OrderController::index');
+
+
+/* admin */
+
+$routes->get('admin', 'AdminController::index');
+$routes->get('admin/users', 'AdminController::users');
+$routes->get('admin/orders', 'AdminController::orders');
+$routes->get('admin/books', 'AdminController::books');
+
+$routes->get('admin/upload', 'UploadController::upload');
+$routes->post('upload/upload', 'UploadController::upload');

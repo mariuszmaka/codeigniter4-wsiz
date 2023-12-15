@@ -1,0 +1,207 @@
+CRITICAL - 2023-12-12 12:21:27 --> Undefined variable $errors
+in APPPATH\Views\admin.php on line 3.
+ 1 APPPATH\Views\admin.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\admin.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:22:08 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\admin.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('admin')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:46:45 --> Invalid file: "upload_form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload_form.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('upload_form', [], true)
+ 3 APPPATH\Controllers\UploadController.php(33): view('upload_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:49:04 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\uploadForm.php on line 8.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('uploadForm', [], true)
+ 3 APPPATH\Controllers\UploadController.php(33): view('uploadForm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:49:28 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\uploadForm.php on line 8.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('uploadForm', [], true)
+ 3 APPPATH\Controllers\UploadController.php(33): view('uploadForm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:49:46 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Views\uploadForm.php on line 13.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('uploadForm', [], true)
+ 3 APPPATH\Controllers\UploadController.php(33): view('uploadForm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:53:37 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\AdminController.php(10): view('admin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:53:39 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\AdminController.php(10): view('admin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:53:51 --> Invalid file: "admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\AdminController.php(10): view('admin')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 12:54:17 --> Call to undefined function App\Controllers\returnView()
+in APPPATH\Controllers\UploadController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:11:38 --> Call to undefined function App\Controllers\returnView()
+in APPPATH\Controllers\UploadController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:20:30 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\projects\\biblioteka_cyfr\\writable\\uploads/uploads/', '1702387230_9181d3f10d4b57159341.pdf')
+ 3 APPPATH\Controllers\UploadController.php(38): CodeIgniter\HTTP\Files\UploadedFile->store('uploads/', '1702387230_9181d3f10d4b57159341.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:20:47 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\projects\\biblioteka_cyfr\\writable\\uploads/uploads/', '1702387247_ae12f2986c3dda54da45.pdf')
+ 3 APPPATH\Controllers\UploadController.php(38): CodeIgniter\HTTP\Files\UploadedFile->store('uploads/', '1702387247_ae12f2986c3dda54da45.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:21:50 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\UploadController.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\Controllers\\UploadController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UploadController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:22:02 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\projects\\biblioteka_cyfr\\writable\\uploads/uploads/', '1702387322_7c6081502d14545e0357.pdf')
+ 3 APPPATH\Controllers\UploadController.php(38): CodeIgniter\HTTP\Files\UploadedFile->store('uploads/', '1702387322_7c6081502d14545e0357.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:22:22 --> finfo_file(C:\wamp64\tmp\php6FE2.tmp): Failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\wamp64\\tmp\\php6FE2.tmp): Failed to open stream: No such file or directory', 'D:\\projects\\biblioteka_cyfr\\system\\Files\\File.php', 117)
+ 2 SYSTEMPATH\Files\File.php(117): finfo_file(resource (file_info), 'C:\\wamp64\\tmp\\php6FE2.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(320): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(309): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH\Files\File.php(129): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 SYSTEMPATH\HTTP\Files\UploadedFile.php(356): CodeIgniter\Files\File->getRandomName()
+ 7 APPPATH\Controllers\UploadController.php(38): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:22:32 --> finfo_file(C:\wamp64\tmp\php9722.tmp): Failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\wamp64\\tmp\\php9722.tmp): Failed to open stream: No such file or directory', 'D:\\projects\\biblioteka_cyfr\\system\\Files\\File.php', 117)
+ 2 SYSTEMPATH\Files\File.php(117): finfo_file(resource (file_info), 'C:\\wamp64\\tmp\\php9722.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(320): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(309): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH\Files\File.php(129): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 SYSTEMPATH\HTTP\Files\UploadedFile.php(356): CodeIgniter\Files\File->getRandomName()
+ 7 APPPATH\Controllers\UploadController.php(38): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:22:41 --> finfo_file(C:\wamp64\tmp\phpB980.tmp): Failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\wamp64\\tmp\\phpB980.tmp): Failed to open stream: No such file or directory', 'D:\\projects\\biblioteka_cyfr\\system\\Files\\File.php', 117)
+ 2 SYSTEMPATH\Files\File.php(117): finfo_file(resource (file_info), 'C:\\wamp64\\tmp\\phpB980.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(320): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(309): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH\Files\File.php(129): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 SYSTEMPATH\HTTP\Files\UploadedFile.php(356): CodeIgniter\Files\File->getRandomName()
+ 7 APPPATH\Controllers\UploadController.php(38): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->upload()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:43:12 --> Class "Dompdf\Dompdf" not found
+in APPPATH\Controllers\BookController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:50:37 --> Class "App\ThirdParty\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:53:46 --> Class "App\ThirdParty\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:53:48 --> Class "App\ThirdParty\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:54:26 --> Class "setasign\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-12 13:54:27 --> Class "setasign\Fpdi" not found
+in APPPATH\Controllers\BookController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BookController->getBookPDF('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
