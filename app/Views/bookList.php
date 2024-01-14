@@ -5,7 +5,6 @@
 
     <?php if ($data): ?>
       <?php foreach ($data as $row): ?>
-        <?php //print_r($row); die(); ?>
         <div class="card mb-3" style="width: 49%; display: inline-block;">
           <div class="row g-0">
             <div class="col-md-4">
@@ -49,7 +48,7 @@
 
     <!-- Pagination -->
     <div class="d-flex justify-content-end">
-      <?= $pager_links;  ?>
+      <?= $pager->links();  ?>
     </div>
 
   </div>

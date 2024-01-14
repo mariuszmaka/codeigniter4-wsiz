@@ -10,43 +10,49 @@ class UploadController extends BaseController
 
     public function index()
     {
-        return view('uploadForm', ['errors' => []]);
+        return $this->returnView('admin/uploadForm', ['errors' => []]);
     }
 
-    public function upload()
-    {
+    public function upload(){
         $validationRule = [
             'userfile' => [
                 'label' => 'PDF File',
                 'rules' => [
                     'uploaded[userfile]',
-                    'mime_in[userfile,application/pdf]',
+                    'mime_in[userfile,application/pdf,image/jpg,image/jpeg,image/png]',
                     'max_size[userfile,2048]', #kB
-
                 ],
             ],
         ];
         if (! $this->validate($validationRule)) {
             $data = ['errors' => $this->validator->getErrors()];
-            return $this->returnView('uploadForm', $data);
+            return $this->returnView('admin/uploadForm', $data);
         }
 
-        $img = $this->request->getFile('userfile');
+        $filename = $this->request->getFile('userfile');
 
-        if (! $img->hasMoved()) {
-            $filepath = WRITEPATH . 'uploads/' . $img->store('uploads');
+        if (! $filename->hasMoved()) {
+            $ext = pathinfo($filename, PATHINFO_EXTENSION);
+            $filepath = WRITEPATH . 'uploads/' . $filename->store('uploads' );
             $data = ['uploaded_fileinfo' => new File($filepath)];
-            return $this->returnView('uploadSuccess', $data);
+            return $this->returnView('admin/uploadSuccess', $data);
         }
 
-        $data = ['errors' => 'The file has already been moved.'];
+        $data = ['errors' => 'Plik usunięty.'];
 
-        return $this->returnView('uploadForm', $data);
+        return $this->returnView('admin/uploadForm', $data);
     }
 
     public function returnView($view, $data){
-        echo view('header');
+        echo view('admin/headerAdmin');
         echo view($view, $data);
         echo view('footer');
+    }
+
+    public function FileList(){
+        $path    = WRITEPATH . 'uploads/uploads/';
+        #scandir - Returns an array of files and directories from the directory.
+        $data['files'] = array_diff(scandir($path), array('.', '..'));
+        return $this->returnView('admin/fileList', $data);
     }
 }

@@ -29,7 +29,10 @@
           <a class="nav-link active" aria-current="page" href="<?=base_url() ?>">Home</a>
         </li>
         -->
-        <li class="nav-item">
+          <li class="nav-item">
+              <a class="nav-link" href="<?=base_url("categories") ?>">Kategorie książek</a>
+          </li>
+          <li class="nav-item">
           <a class="nav-link" href="<?=base_url("catalog") ?>">Katalog książek</a>
         </li>
         <li class="nav-item">
