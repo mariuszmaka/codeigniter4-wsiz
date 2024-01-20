@@ -17,6 +17,7 @@ $routes->get('catalog',     'BookController::index');
 $routes->get('catalog/(:num)',     'BookController::index/$1');
 
 $routes->get('book/(:num)', 'BookController::getBook/$1');
+$routes->isRedirect('book/(:num)', 'BookController::getBook/$1');
 $routes->get('bookPDF/(:num)', 'BookController::getBookPDF/$1');
 
 $routes->get ('login',  'LoginController::index');
@@ -34,10 +35,10 @@ $routes->post('registration',   'RegistrationController::do_register');
 $routes->get('search', 'SearchController::index');
 
 $routes->get('recommendation', 'RecommendationController::index');
+$routes->post('recommendation', 'RecommendationController::store');
 
 $routes->post('order', 'OrderController::store');
 $routes->get('order', 'OrderController::index');
-
 
 /* admin */
 
@@ -54,8 +55,6 @@ $routes->post('admin/ordersEdit', 'AdminController::ordersEdit');
 $routes->get('admin/books', 'AdminController::books');
 $routes->post('admin/booksEdit', 'AdminController::booksEdit');
 $routes->post('admin/booksDelete', 'AdminController::booksDelete');
-
-
 
 $routes->get('admin/upload', 'UploadController::index');
 $routes->post('upload/upload', 'UploadController::upload');

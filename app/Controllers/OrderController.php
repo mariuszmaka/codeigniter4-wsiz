@@ -17,7 +17,6 @@ class OrderController extends BaseController
     public function store() {
         $userModel = new OrderModel();
         $data = [
-
             'user_id'   => $this->request->getVar('user_id'),
             'book_id'   => $this->request->getVar('book_id'),
             'date'      => date("Y-m-d H:i:s"),

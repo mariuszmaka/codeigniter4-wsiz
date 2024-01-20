@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use Tigo\Recommendation\Recommend;
 use App\Models\RatingModel;
+use App\Models\BookModel;
 use OpenCF\RecommenderService;
 use function PHPUnit\Framework\isEmpty;
 
@@ -11,7 +11,69 @@ class RecommendationController extends BaseController
 {
 
 
-    public function index($book_id = 1)
+    /*
+     * Pobrac liste książek ocenionych prze uzytkownika
+     * Mamy np tablicę - 4,3,2
+     * Dla kazdego elementu przewidujemy co się podoba np wyjdzie
+     * że dla elementu 4 (id książki) polecane to 5 - 20%, 6-30%, 7-40%...
+     * i tak dla kazdego elementu
+     * pózniej generujemy kolejną tablicę dwuelementową gdzie skłądowymi 
+     * są obiekt książka oraz wartość 'polecania' np 20%
+     * i ta tablica leci do widoku
+     * 
+     */
+    public function index(){
+        $model = new RatingModel();
+        $results = $model->where('user_id',4)->findAll();
+        $data['data'] = $results;
+        
+
+        $book_list = array();
+        //tablica z ksiazkami które ocenil uzytkownik - dla kazdej zwracamy predyckje co się podoba
+        foreach($results as $row){
+            
+            foreach($this->getPredict($row['book_id'],$row['score']) as $key => $value){
+                $b = new BookModel();
+                 array_push($book_list, 
+                            array( 'book'  => $b->getBook($key),
+                                   'score' => $value)
+                            );
+            };
+        }
+        //ksiazki się powielają ponieważ dla każdej z osobna system wyswietla jakby powiązania 
+        // z jedną pozycją moga się łaczyc bardziej z inną mniej, niemnjiej jednaj pewna korelacja występuje
+        
+
+        //mozna posortowac tablice po wartosci score i usunac najmniejsze duble (wyswietlą się  większe)
+        ksort($book_list);
+        $book_list = $this->unique_multidim_array($book_list, 'book');
+        
+        
+        $data['data'] = $book_list;
+        return view('header')
+            . view('recommendation', $data)
+            . view('footer');
+
+
+        }
+
+        //usuwa z tablicy duble po przekazanym kluczu
+        function unique_multidim_array($array, $key) {
+            $temp_array = array();
+            $i = 0;        
+            $key_array = array();   
+        
+            foreach($array as $val) {
+                if (!in_array($val[$key], $key_array)) {
+                    $key_array[$i] = $val[$key];
+                    $temp_array[$i] = $val;
+                }
+                $i++;
+            }
+            return $temp_array;
+        }
+
+    public function getPredict($book_id, $score_val)
     {
         #https://github.com/phpjuice/opencf
 
@@ -34,47 +96,17 @@ class RecommendationController extends BaseController
             $result = $model->select('user_id, score')->where('book_id', $value['book_id'])->findAll();
 
             $tmp = array();
-            //var_dump($value);
 
             foreach($result as $row){
 
                 if(isset($row['user_id']) & isset($row['score']))
                 $tmp[strval($row['user_id'])] = $row['score'];
-
-                //var_dump($tmp);
             }
 
             $dataset[strval($value['book_id'])] = $tmp;
             unset($tmp);
         }
-        var_dump($dataset);
 
- #Training Dataset
-        /*
-        $dataset = [
-            "squid" => [
-                "user1" => 1,
-                "user2" => 1,
-                "user3" => 0.2,
-            ],
-            "cuttlefish" => [
-                "user1" => 0.5,
-                "user3" => 0.4,
-                "user4" => 0.9,
-            ],
-            "octopus" => [
-                "user1" => 0.8,
-                "user2" => 0.5,
-                "user3" => 1,
-                "user4" => 0.4,
-            ],
-            "nautilus" => [
-                "user2" => 0.2,
-                "user3" => 0.4,
-                "user4" => 0.5,
-            ],
-        ];
-*/
 
         # POBIERA DANE O OCENACH
         # NOWY UZYTKOWNIK DLA ZADANEJ KSIAZKI -
@@ -89,13 +121,42 @@ class RecommendationController extends BaseController
         $recommender = $recommenderService->weightedSlopeone();
 
         // Predict future ratings
-        $results = $recommender->predict([
-            $book_id => 0.4
-        ]);
+        // z bazy pobrać rekomendację użytkownika dla danej książki (jeśli jest)
+        // wtedy system pokaże co rekomenduje
 
-        $data['data'] = $results;
-        return view('header')
-            . view('recommendation', $data)
-            . view('footer');
+
+        $results = $recommender->predict([
+            $book_id => $score_val
+        ]);
+        // zwraca tablicę gdzie indeksy tablicy to id książek a wartości to na ile się powinna podobać
+
+        return $results;
+    }
+
+    /**
+     * get score of book (id)
+     *
+     * @param int $id
+     * @return array
+     */
+
+
+
+    /**
+     * @throws \ReflectionException
+     */
+    public function store()
+    {
+        $model = new RatingModel();
+        $data = [
+            'user_id'   => $this->request->getVar('user_id'),
+            'book_id'   => $this->request->getVar('book_id'),
+            'score'     => $this->request->getVar('score')
+        ];
+
+   
+        $model->insert($data);
+        return redirect()->to(base_url('book/'.$this->request->getVar('book_id')));
+
     }
 }

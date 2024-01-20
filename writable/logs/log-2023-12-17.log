@@ -1,0 +1,919 @@
+INFO - 2023-12-17 16:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 16:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 17:12:33 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(55): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 17:15:29 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(56): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 17:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 17:16:18 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(56): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 17:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 17:16:39 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(56): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 17:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 17:17:42 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(55): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 17:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 17:18:04 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(55): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 17:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 17:19:12 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(55): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 17:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 17:21:29 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\AdminController.php(55): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->usersEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 17:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 17:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 18:05:55 --> Undefined property: stdClass::$id
+in APPPATH\Views\admin\book.php on line 80.
+ 1 APPPATH\Views\admin\book.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\admin\\book.php', 80)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\admin\\book.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/book', [], true)
+ 5 APPPATH\Controllers\AdminController.php(83): view('admin/book', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->books()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:24:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(100): CodeIgniter\Model->update('476', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:24:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(100): CodeIgniter\Model->update('476', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:25:42 --> Allowed fields must be specified for model: "App\Models\BookModel"
+in SYSTEMPATH\BaseModel.php on line 1257.
+ 1 SYSTEMPATH\BaseModel.php(1257): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\BookModel')
+ 2 SYSTEMPATH\BaseModel.php(925): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\AdminController.php(100): CodeIgniter\Model->update('476', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:26:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(100): CodeIgniter\Model->update('476', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:29:49 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(100): CodeIgniter\Model->update('476', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:31:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(101): CodeIgniter\Model->update('476', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:33:16 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\AdminController.php on line 108.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\Controllers\\AdminController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AdminController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:33:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(103): CodeIgniter\Model->update('476', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:34:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(100): CodeIgniter\Model->update('476', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:34:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AdminController.php(100): CodeIgniter\Model->update('475', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->booksEdit()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 19:46:10 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\user.php on line 66.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/user', [], true)
+ 4 APPPATH\Controllers\AdminController.php(38): view('admin/user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->users()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 19:53:33 --> mysqli_sql_exception: Unknown column 'order_id' in 'where clause' in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `or...', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `or...')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `or...')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `or...', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\AdminController.php(134): CodeIgniter\BaseModel->delete(Array)
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\AdminController->ordersDelete()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 19:53:33 --> Unknown column 'order_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `orders`
+WHERE `book_id` = :book_id:
+AND `order_id` IN :order_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\AdminController.php(134): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->ordersDelete()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-17 19:53:50 --> mysqli_sql_exception: Unknown column 'order_id' in 'where clause' in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `or...', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `or...')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `or...')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `or...', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\AdminController.php(134): CodeIgniter\BaseModel->delete(Array)
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\AdminController->ordersDelete()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 19:53:50 --> Unknown column 'order_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `orders`
+WHERE `id_order` = :id_order:
+AND `order_id` IN :order_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\AdminController.php(134): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminController->ordersDelete()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:15:23 --> scandir(/uploads): Nie można odnaleźć określonego pli (code: 2)
+in APPPATH\Controllers\UploadController.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/uploads): Nie można odnaleźć określonego pli (code: 2)', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\UploadController.php', 55)
+ 2 APPPATH\Controllers\UploadController.php(55): scandir('/uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:15:50 --> Invalid file: "fileList.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fileList.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fileList', [], true)
+ 3 APPPATH\Controllers\UploadController.php(48): view('fileList', [...])
+ 4 APPPATH\Controllers\UploadController.php(56): App\Controllers\UploadController->returnView('fileList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:16:54 --> Invalid file: "fileList.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fileList.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fileList', [], true)
+ 3 APPPATH\Controllers\UploadController.php(48): view('fileList', [...])
+ 4 APPPATH\Controllers\UploadController.php(56): App\Controllers\UploadController->returnView('fileList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:16:55 --> Invalid file: "fileList.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fileList.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('fileList', [], true)
+ 3 APPPATH\Controllers\UploadController.php(48): view('fileList', [...])
+ 4 APPPATH\Controllers\UploadController.php(56): App\Controllers\UploadController->returnView('fileList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:17:13 --> Undefined variable $data
+in APPPATH\Views\admin\fileList.php on line 2.
+ 1 APPPATH\Views\admin\fileList.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\admin\\fileList.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\admin\\fileList.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/fileList', [], true)
+ 5 APPPATH\Controllers\UploadController.php(48): view('admin/fileList', [...])
+ 6 APPPATH\Controllers\UploadController.php(56): App\Controllers\UploadController->returnView('admin/fileList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:17:34 --> App\Controllers\UploadController::returnView(): Return value must be of type string, none returned
+in APPPATH\Controllers\UploadController.php on line 50.
+ 1 APPPATH\Controllers\UploadController.php(56): App\Controllers\UploadController->returnView('admin/fileList', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:29:52 --> Invalid file: "uploadForm.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('uploadForm.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('uploadForm', [], true)
+ 3 APPPATH\Controllers\UploadController.php(13): view('uploadForm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:41:56 --> substr(): Argument #2 ($offset) must be of type int, string given
+in APPPATH\Views\admin\fileList.php on line 13.
+ 1 APPPATH\Views\admin\fileList.php(13): substr('8', '1702844517_5d972c3a41b08a4d62f9.pdf')
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\admin\\fileList.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/fileList', [], true)
+ 5 APPPATH\Controllers\UploadController.php(48): view('admin/fileList', [...])
+ 6 APPPATH\Controllers\UploadController.php(56): App\Controllers\UploadController->returnView('admin/fileList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 20:45:38 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Views\admin\fileList.php on line 13.
+ 1 APPPATH\Views\admin\fileList.php(13): date('Y-m-d H:i:s', '2023_12_17')
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\admin\\fileList.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/fileList', [], true)
+ 5 APPPATH\Controllers\UploadController.php(48): view('admin/fileList', [...])
+ 6 APPPATH\Controllers\UploadController.php(56): App\Controllers\UploadController->returnView('admin/fileList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UploadController->FileList()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 21:17:17 --> Attempt to read property "img" on array
+in APPPATH\Views\search.php on line 23.
+ 1 APPPATH\Views\search.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "img" on array', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 5 APPPATH\Controllers\SearchController.php(21): view('search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 21:18:45 --> Attempt to read property "img" on array
+in APPPATH\Views\search.php on line 23.
+ 1 APPPATH\Views\search.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "img" on array', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 5 APPPATH\Controllers\SearchController.php(21): view('search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-17 21:19:47 --> Undefined property: stdClass::$id
+in APPPATH\Views\search.php on line 49.
+ 1 APPPATH\Views\search.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php', 49)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 5 APPPATH\Controllers\SearchController.php(21): view('search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:23:44 --> Undefined property: stdClass::$name
+in APPPATH\Views\search.php on line 32.
+ 1 APPPATH\Views\search.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 5 APPPATH\Controllers\SearchController.php(21): view('search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:37:34 --> Unclosed '{' on line 9
+in APPPATH\Controllers\SearchController.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\Controllers\\SearchController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SearchController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SearchController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\SearchController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:37:51 --> Attempt to read property "img" on string
+in APPPATH\Views\search.php on line 24.
+ 1 APPPATH\Views\search.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "img" on string', 'D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\projects\\biblioteka_cyfr\\app\\Views\\search.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 5 APPPATH\Controllers\SearchController.php(50): view('search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:38:17 --> Cannot access offset of type string on string
+in APPPATH\Views\search.php on line 24.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 4 APPPATH\Controllers\SearchController.php(50): view('search', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:38:34 --> Cannot use object of type stdClass as array
+in APPPATH\Views\search.php on line 24.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 4 APPPATH\Controllers\SearchController.php(50): view('search', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 21:41:43 --> mysqli_sql_exception: Unknown column 'sdf' in 'where clause' in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `books`....', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\app\Controllers\SearchController.php(35): CodeIgniter\Database\BaseBuilder->get(10, 0)
+#5 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\SearchController->index()
+#6 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-17 21:41:43 --> Unknown column 'sdf' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`, `books`.`title`, `books`.`description`, `books`.`isbn`, `books`.`img`, `books`.`pages`, `books`.`publish_date`, `books`.`amount`, GROUP_CONCAT(authors.name, \' \', authors.surname ORDER BY authors.name SEPARATOR \', \') as authors
+FROM `books`
+LEFT JOIN `book_author` ON `books`.`book_id` = `book_author`.`book_id`
+LEFT JOIN `authors` ON `authors`.`author_id` = `book_author`.`author_id`
+WHERE `sdf` LIKE :sdf: ESCAPE \'!\'
+GROUP BY `books`.`book_id`, `books`.`title`
+ORDER BY `book_id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Controllers\SearchController.php(35): CodeIgniter\Database\BaseBuilder->get(10, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:45:12 --> syntax error, unexpected token ";"
+in APPPATH\Views\search.php on line 63.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('search', [], true)
+ 3 APPPATH\Controllers\SearchController.php(50): view('search', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:46:56 --> Undefined variable $data5
+in APPPATH\Controllers\SearchController.php on line 50.
+ 1 APPPATH\Controllers\SearchController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data5', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\SearchController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SearchController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:51:51 --> syntax error, unexpected identifier "Dataset"
+in APPPATH\Controllers\RecommendationController.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RecommendationController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RecommendationController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\RecommendationController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 21:55:03 --> Undefined variable $result
+in APPPATH\Controllers\RecommendationController.php on line 63.
+ 1 APPPATH\Controllers\RecommendationController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 21:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 21:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:01:06 --> Unsupported operand types: array - array
+in VENDORPATH\phpjuice\opencf\src\Support\Vector.php on line 83.
+ 1 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\Similarity.php(43): OpenCF\Support\Vector->diff([...], [...])
+ 2 VENDORPATH\phpjuice\opencf\src\Algorithms\Recommender.php(75): OpenCF\Algorithms\Slopeone\Similarity->getSimilarity([...], [...])
+ 3 VENDORPATH\phpjuice\opencf\src\Algorithms\Slopeone\WeightedSlopeone.php(19): OpenCF\Algorithms\Recommender->buildModel()
+ 4 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(119): OpenCF\Algorithms\Slopeone\WeightedSlopeone->buildModel()
+ 5 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(80): OpenCF\RecommenderService->getRecommender('OpenCF\\Algorithms\\Slopeone\\WeightedSlopeone')
+ 6 APPPATH\Controllers\RecommendationController.php(56): OpenCF\RecommenderService->weightedSlopeone()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:01:39 --> 
+in VENDORPATH\phpjuice\opencf\src\RecommenderService.php on line 67.
+ 1 VENDORPATH\phpjuice\opencf\src\RecommenderService.php(48): OpenCF\RecommenderService->setDataset([])
+ 2 APPPATH\Controllers\RecommendationController.php(53): OpenCF\RecommenderService->__construct([])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:05:57 --> syntax error, unexpected identifier "groupBy"
+in APPPATH\Controllers\RecommendationController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RecommendationController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RecommendationController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\RecommendationController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 22:06:07 --> mysqli_sql_exception: Column 'book_id' in field list is ambiguous in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `book_id...', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `book_id...')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `book_id...')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `book_id...', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 22:06:07 --> Column 'book_id' in field list is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `book_id`
+FROM `ratings`
+JOIN `books` ON `bookd_id`=`ratings`.`id_book`
+GROUP BY `book_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 22:06:28 --> mysqli_sql_exception: Unknown column 'books.books_id' in 'on clause' in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `books`....', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 22:06:28 --> Unknown column 'books.books_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`
+FROM `ratings`
+JOIN `books` ON `books`.`books_id`=`ratings`.`id_book`
+GROUP BY `book_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 22:06:37 --> mysqli_sql_exception: Unknown column 'ratings.id_book' in 'on clause' in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `books`....', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 22:06:37 --> Unknown column 'ratings.id_book' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`book_id`
+FROM `ratings`
+JOIN `books` ON `books`.`book_id`=`ratings`.`id_book`
+GROUP BY `book_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 22:07:25 --> mysqli_sql_exception: Column 'book_id' in group statement is ambiguous in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `books`....', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 22:07:25 --> Column 'book_id' in group statement is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`title`
+FROM `ratings`
+JOIN `books` ON `books`.`book_id`=`ratings`.`book_id`
+GROUP BY `book_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 22:07:41 --> mysqli_sql_exception: Column 'book_id' in group statement is ambiguous in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `books`....', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 22:07:41 --> Column 'book_id' in group statement is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`title`
+FROM `ratings`
+JOIN `books` ON `books`.`book_id`=`ratings`.`book_id`
+GROUP BY `book_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:09:04 --> Illegal offset type
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:10:04 --> Array to string conversion
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 APPPATH\Controllers\RecommendationController.php(24): strval([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:10:06 --> Array to string conversion
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 APPPATH\Controllers\RecommendationController.php(24): strval([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:10:27 --> Array to string conversion
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 APPPATH\Controllers\RecommendationController.php(24): strval([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:11:11 --> Array to string conversion
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 APPPATH\Controllers\RecommendationController.php(24): strval([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:11:12 --> Array to string conversion
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 APPPATH\Controllers\RecommendationController.php(24): strval([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:12:03 --> Array to string conversion
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 APPPATH\Controllers\RecommendationController.php(24): strval([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:12:04 --> Array to string conversion
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 APPPATH\Controllers\RecommendationController.php(24): strval([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:12:25 --> Undefined array key "books.title"
+in APPPATH\Controllers\RecommendationController.php on line 24.
+ 1 APPPATH\Controllers\RecommendationController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "books.title"', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 22:13:35 --> mysqli_sql_exception: Unknown column 'books.book.id' in 'field list' in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `books`....', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `books`....')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `books`....')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`....', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 22:13:35 --> Unknown column 'books.book.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `books`.`title`, `books`.`book`.`id`
+FROM `ratings`
+JOIN `books` ON `books`.`book_id`=`ratings`.`book_id`
+GROUP BY `books`.`title`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-17 22:18:21 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\projects\biblioteka_cyfr\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `user_id...', 0)
+#1 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 D:\projects\biblioteka_cyfr\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 D:\projects\biblioteka_cyfr\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 D:\projects\biblioteka_cyfr\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\projects\biblioteka_cyfr\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\projects\biblioteka_cyfr\app\Controllers\RecommendationController.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+#8 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+#9 D:\projects\biblioteka_cyfr\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\projects\biblioteka_cyfr\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-17 22:18:21 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`
+FROM `ratings`
+WHERE `book_id` = :book_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RecommendationController.php(25): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-17 22:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:26:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecommendationController.php on line 29.
+ 1 APPPATH\Controllers\RecommendationController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:27:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecommendationController.php on line 29.
+ 1 APPPATH\Controllers\RecommendationController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-17 22:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-17 22:28:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecommendationController.php on line 30.
+ 1 APPPATH\Controllers\RecommendationController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\projects\\biblioteka_cyfr\\app\\Controllers\\RecommendationController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RecommendationController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecommendationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

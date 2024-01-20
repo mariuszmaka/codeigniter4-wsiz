@@ -36,6 +36,11 @@ class BookModel extends Model
         ];
     }
 
+    public function getBook($id){
+        $bookModel = new BookModel();
+        return $bookModel->where('book_id',$id)->first();
+    }
+
 
 }
 
