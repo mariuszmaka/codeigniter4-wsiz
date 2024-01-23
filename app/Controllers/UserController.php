@@ -12,7 +12,7 @@ class UserController extends BaseController
         $userModel = new UserModel();
         
         #wybieramy uzytkownika z id
-        $data['user'] = $userModel->where('id', '7')->first();
+        $data['user'] = $userModel->where('id', session('user')->id)->first();
 
         #generowanie widoków
         echo view('header');

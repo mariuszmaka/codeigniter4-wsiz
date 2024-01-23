@@ -73,6 +73,7 @@
                             <?php
                             //data for recommendation
                             $book_id = session()->get('user')->id;
+                            if(isset($data->id))
                             $user_id = $data->id;
                             ?>
                         </div>

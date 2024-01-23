@@ -22,6 +22,7 @@ class RecommendationController extends BaseController
      * i ta tablica leci do widoku
      * 
      */
+
     public function index(){
         $model = new RatingModel();
         $results = $model->where('user_id',4)->findAll();
@@ -159,4 +160,6 @@ class RecommendationController extends BaseController
         return redirect()->to(base_url('book/'.$this->request->getVar('book_id')));
 
     }
+
+
 }

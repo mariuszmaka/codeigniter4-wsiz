@@ -47,9 +47,8 @@ class Autoload extends AutoloadConfig
     public $psr4 = [
         APP_NAMESPACE => APPPATH, // For custom app namespace
         'Config'      => APPPATH . 'Config',
-        'Dompdf'      => APPPATH . 'ThirdParty/dompdf/src',
-        'Fpdi'      => APPPATH . 'ThirdParty/fpdi/src',
-        'Recommendation'      => APPPATH . 'ThirdParty/recommendation/src',
+        'Recommendation'  => APPPATH . 'ThirdParty/recommendation/src',
+        'Fpdi'            => APPPATH . 'ThirdParty/fpdi/src',
     ];
 
     /**
@@ -69,7 +68,9 @@ class Autoload extends AutoloadConfig
      *
      * @var array<string, string>
      */
-    public $classmap = [];
+    public $classmap = [
+       
+    ];
 
     /**
      * -------------------------------------------------------------------
